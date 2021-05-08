@@ -135,6 +135,6 @@ e retorna os dados mais relevantes para quem estiver utilizando!
 					input("Aperte ENTER para voltar ao menu... ")
 					os.system("clear")
 
-				elif escolhe == "x" or escolhe == "X":
-					sys.exit()
+			elif escolhe == "x" or escolhe == "X":
+				sys.exit()
 # Fim
