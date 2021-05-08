@@ -32,9 +32,9 @@ else:
 \033[1;32m[*]\033[m Meu github: https://github.com/lucas-Dk
 
 [ 1 ] - Fazer uma busca
-[ 2 ] - Saber como usar
+[ 2 ] - Saber como usar				{Versão 1.0}
 [ x ] - Sair
-
+========================================================================
 	""")
 		try:
 			escolhe = input("\033[1;32m[+]\033[m O que você deseja: ")
