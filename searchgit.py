@@ -107,12 +107,12 @@ else:
 							requisitar_url = requests.get(url)
 							if requisitar_url.status_code == 200:
 								dados = json.loads(requisitar_url.text)
+								print()
+								print("\033[1;32m[+]\033[m DADOS DA PÁGINA INICIAL:\n")
 								for chave,valor in dados.items():
-									if chave == "login":
-										pass
-									else:
+									if chave and valor:
 										print("\033[1;32m[*] {}:\033[m {}".format(chave,valor))
-								input("Aperte ENTER para voltar ao menu... ")
+								input("\n\033[1;32m[+]\033[mAperte ENTER para voltar ao menu... ")
 								os.system("clear")
 
 				elif escolhe == 2:
