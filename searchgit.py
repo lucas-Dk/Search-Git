@@ -12,7 +12,7 @@ except:
 	print("Digite esse comando para instalar as dependências:\033[m")
 	print("\npip install -r requirements.txt")
 else:
-	
+
 	while True:
 		os.system("clear")
 		print("""\033[1;31m
@@ -137,3 +137,4 @@ e retorna os dados mais relevantes para quem estiver utilizando!
 
 				elif escolhe == "x" or escolhe == "X":
 					sys.exit()
+# Fim
